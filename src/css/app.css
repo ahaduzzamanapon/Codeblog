@@ -1,0 +1,11 @@
+.content{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+
+}
+.headercontent {
+    background: #ffffff;
+    height: 24rem;
+    padding: 10px 2px;
+}

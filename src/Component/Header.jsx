@@ -1,12 +1,14 @@
 import Navbar1 from "./Navbar/Navbar1.jsx";
-import Navbar2 from "./Navbar/Navbar2.jsx";
+import React from "react";
 function Header() {
-    
-    return (
+
+  return (
+    <React.Fragment>
       <div>
-        <Navbar1 />
-        <Navbar2 />
+          <Navbar1 />
       </div>
-    )
+
+    </React.Fragment>
+  )
 }
 export default Header

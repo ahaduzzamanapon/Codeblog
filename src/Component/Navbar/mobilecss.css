@@ -1,0 +1,94 @@
+/* BottomBar.css */
+/* BottomBar.css */
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+/* Add your existing styles here */
+
+/* Add your existing styles here */
+
+.mobile-nav{
+
+        position: absolute;
+        bottom: 9px;
+        border-top: 3px solid #7e22ce;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 17px 1px;
+        border-radius: 31px 31px 0px 0px;
+
+}
+.mobile-ul{
+   display: flex;
+   gap: 3px;
+}
+.mobile-ul{
+   list-style: none;
+}
+.top_heder {
+    display: flex;
+    justify-content: center;
+    padding: 13px 1px;
+    border-bottom: 1px solid #7e22ce;
+}  
+
+.navm{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-top: 2px solid #ab6fe0;
+}
+
+.nav-box {
+  display: flex;
+  padding: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px 0px #4444;
+  border-radius: 8px;
+}
+.nav-container {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+}
+.nav__item {
+  display: flex;
+  position: relative;
+  padding: 2px;
+}
+.nav__item.active .nav__item-icon {
+  margin-top: -26px;
+  box-shadow: 0px 0px 16px 0px #4444;
+  border-top: 2px solid;
+
+}
+.nav__item.active .nav__item-text {
+  transform: scale(1);
+}
+.nav__item-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2f3046;
+  text-decoration: none;
+}
+.nav__item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 68px;
+    width: 68px;
+    transition: margin-top 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+.nav__item-text {
+  position: absolute;
+  bottom: 0;
+  transform: scale(0);
+  transition: transform 250ms ease-in-out;
+}

@@ -1,8 +1,12 @@
 import React from "react";
 import LogoImage from "../image/logo.png";
 import "./nav1web.css";
+import Navbar2 from "./Navbar2";
+
 
 function Navbar1Web() {
+  var logo='</> CodingWithApon'
+
   return (
     <React.Fragment>
       <div className="navigation-wrap bg-light start-header start-style">
@@ -11,7 +15,7 @@ function Navbar1Web() {
             <div className="col-12">
               <nav className="navbar navbar-expand-md navbar-light">
                 <a className="navbar-brand" target="_blank">
-                  <img src={LogoImage} alt="Logo"></img>
+                <h3 className="logo"> {logo} </h3>
                 </a>
 
                 <div
@@ -48,10 +52,13 @@ function Navbar1Web() {
                   </ul>
                 </div>
               </nav>
+              <Navbar2 />
+
             </div>
           </div>
         </div>
       </div>
+
     </React.Fragment>
   );
 }

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar1Mobile from './Navbar1Mobile.jsx';
 import Navbar1Web from './Navbar1Web.jsx';
 
+
 function Navbar1() {
     const [width, setWidth] = useState(window.innerWidth);
 
@@ -20,7 +21,7 @@ function Navbar1() {
 
     return (
         <div>
-            {width >= 600 ? (
+            {width >= 768 ? (
                 <Navbar1Web />
             ) : (
                 <Navbar1Mobile />
