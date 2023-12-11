@@ -1,10 +1,7 @@
 // Import the necessary dependencies
 import React, { useState } from 'react';
 import './mobilecss.css';
-import LogoImage from '../image/logo.png';
 import '@fortawesome/fontawesome-free/css/all.css';
-import { IonIcon } from '@ionic/react';
-import { playCircle, radio, library, search } from 'ionicons/icons';
 import Navbar2 from "./Navbar2";
 
 function Navbar1Mobile() {

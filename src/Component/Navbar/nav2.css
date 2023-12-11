@@ -51,3 +51,58 @@
 .s-ul li.active:hover:after{
 	opacity: 0;
 }
+/* Add these styles to your nav2.css */
+
+.drawer {
+    position: fixed;
+    top: 48px;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+  
+.drawer-container {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+  
+  .drawer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .drawer ul li {
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #000000;
+	cursor: pointer;
+	transition: 0.5s;
+	padding: 3px 8px;
+    border-radius: 4px;
+  }
+  
+  .drawer ul li:hover {
+	background-color: #7e22ce;
+	color: #ffffff;
+  }
+  
+  .drawer.visible {
+	opacity: 1;
+	visibility: visible;
+  }
+  
+  .menu-icon {
+    justify-content: end !important;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+	cursor: pointer;
+}

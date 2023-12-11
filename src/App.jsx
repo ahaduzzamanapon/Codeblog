@@ -1,6 +1,7 @@
 import Header from "./Component/Header.jsx";
 import './css/app.css'
 function App() {
+
   return (
     <div className="flex">
       <div>
@@ -13,9 +14,6 @@ function App() {
         </div>
        
       </div>
-      <footer>
-        fotter
-      </footer>
     </div>
   );
 }
